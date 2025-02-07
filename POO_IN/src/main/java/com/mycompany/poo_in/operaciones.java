@@ -4,14 +4,14 @@ public class operaciones {
     public operaciones(){
         
     }
-    void setMes(int mes){
+    public void setMes(int mes){
         this.mes = mes;
-        mesIngresado();
+        //mesIngresado();
     }
-    int getMes(){
+    public int getMes(){
         return mes;
     }
-    private void mesIngresado(){
+    public void mesIngresado(){
         switch(this.mes){
             case 1:
                 System.out.println("Enero");
